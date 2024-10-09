@@ -8,10 +8,10 @@ export default function Profile() {
         <ProfilePicture />
       </View>
       
-      <Text style={{fontSize: 30, fontWeight: "bold"}}>
+      <Text style={{fontSize: 40, fontWeight: "bold"}}>
           Linus
       </Text>
-      <Text style={{fontSize: 30, color: "#808080"}}>
+      <Text style={{fontSize: 40, color: "#808080"}}>
           Torvalds
       </Text>
     </View>

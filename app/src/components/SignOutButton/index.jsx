@@ -1,9 +1,9 @@
-import { Button, View } from "react-native";
+import { Button } from "react-native-paper";
 
 export default function SignOutButton() {
   return (
-    <View>
-      <Button title="Sign Out" color="#dcdcdc"/>
-    </View>
+    <Button style={{paddingHorizontal: 10}} icon="logout" mode="contained" compact onPress={() => console.log('Sign Out Button Pressed')}>
+      Sign Out
+    </Button>
   );
 }
